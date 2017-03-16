@@ -1,0 +1,19 @@
+.template-directory{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    min-height: 50vh;
+    &.nav{
+      background-color: #DDDDDD;
+      a{
+        margin: 0 1rem 1rem;
+      }
+    }
+  }
+}
