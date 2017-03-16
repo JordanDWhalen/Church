@@ -15,7 +15,7 @@ fileinclude = require('gulp-file-include'),
 livereload = require('gulp-livereload'),
 filter    = require('gulp-filter'),
 gutil = require('gulp-util'),
-path = require('path'),
+path = require('path');
 
 // cms_dir = 'slant-cms',
 // theme_dir = 'slant-theme';
