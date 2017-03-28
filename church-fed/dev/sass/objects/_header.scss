@@ -3,9 +3,13 @@
 }
 
 .main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2rem 0;
+  }
 }
 
 .main-nav {
@@ -15,8 +19,7 @@
   justify-content: flex-end;
   flex-grow: 1;
   position: relative;
-  margin-top: 60px;
-  margin-right: 40px;
+  margin: 0;
 }
 
 ul {
@@ -38,6 +41,7 @@ a {
 .main-nav li {
   padding: 0 15px;
   line-height: 45px;
+  margin: 0;
 }
 
 .main-nav li:last-child {
@@ -49,9 +53,9 @@ a {
   display: block;
   position: absolute;
   z-index: 100;
-  top: 80%;
-  left: 0;
-  width: 100%;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 2rem);
   border-bottom: 1px solid #3a3a3a;
 }
 
@@ -60,10 +64,6 @@ a {
   justify-content: center;
   width: 150px;
   line-height: 80px;
-  margin: 30px;
-  margin-top: 40px;
-  margin-bottom: 25px;
-  margin-left: 33px;
   font-size: 2rem;
   /* Rectangle: */
   background: #D8D8D8;
